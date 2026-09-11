@@ -1,6 +1,6 @@
 #Variables
 stock_quantity = 0 #Initialize to zero
-failed_entries = 0
+failed_entries = 0 #Counter for failed entries
 
 #Validation
 def add_stock(stock_quantity, failed_entries):
@@ -37,5 +37,5 @@ def add_stock(stock_quantity, failed_entries):
         stock_quantity += stock_input
         print(f"Total inventory is {stock_quantity} units")
 
-# Call function validation()
+# Call function "validation()""
 add_stock(stock_quantity, failed_entries)
